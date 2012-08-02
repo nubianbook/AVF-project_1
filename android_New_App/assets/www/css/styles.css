@@ -1,0 +1,266 @@
+/*
+Advanced Visual Frameworks
+instructor: Jen McCarrick
+student: Carol Gaylor
+date: July 31, 2012
+*/
+
+html {
+      background: #1b89be;
+}
+
+body {
+      font-family: Arial, Tacoma, Geneva, sans serif;
+      width: 320px;
+      margin: auto;
+}
+
+#container {
+            border-left: 1px solid #da7224;
+            border-right: 1px solid #da7224;
+            width: 100%;
+            margin: auto;
+            margin-top: -21px;
+            padding: 5px 0 0px 0;
+            background: #ffffff;
+}
+
+h1 {
+    color: #3d1efb;
+    width: 100%;
+}
+h2 {
+    width: 320px;
+    padding: 4px;
+    background: #1b89be;
+    margin-top: -1px;
+    font-size: 18px;
+    color: #baeffb;
+    text-align: center;
+}
+h3 {
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    margin: -10px 0 0 0;
+}
+#foot_image {
+             width: 320px;
+}
+
+#android {
+           width: 100px;
+           margin: 0 0 0 -2px;
+           height: 107px;
+           float: left;
+}
+
+#apple {
+         width: 100px;
+         height: 107px;
+         float: right;
+         margin: -110px -10px 0px 300px;
+         padding-right:  5px;
+}
+
+#move {
+        margin-right: 30px;
+}
+
+.sections {
+           border: 2px solid #da7224;
+           margin: auto;
+           width: 320px;
+
+}
+
+#me {
+      margin: 0 0 0 8px;
+}
+
+#appOne {
+          margin: 0 0 0 50px;
+}
+
+#appTwo {
+          width: 100px;
+          position: relative;
+          top: -28px;
+          left: 175px;
+}
+
+#jen {
+      margin: 0 0 0 75px;
+}
+
+#wk1_text {
+            margin: 8px;
+}
+
+.wk1 {
+
+}
+
+.wk1_question {
+               font-weight: 800;
+               text-indent: 5px;
+}
+
+.answer {
+         margin: 0 0 0 10px;
+         font-weight: 600;
+         color: #da7224;
+}
+
+.wk1_answer {
+             margin: 10px 6px 0 10px;
+             font-weight: 300;
+}
+
+.wk_link {
+          margin: auto;
+          width: 320px;
+}
+
+.foot_link ul li {
+                display: inline;
+                text-decoration: none;
+}
+
+#pg1 {
+      text-indent: 1em;
+      margin: 12px;
+}
+
+#pg1_link {
+           display: inline;
+           font-size: 25px;
+		   font-weight: bold;
+    	   font-color: #ff0000;
+    	   text-align: center;
+    	   margin-top: -70px;
+    	   margin-left: 90px;
+}
+
+#btn {
+      margin-top: 75px;
+}
+
+#browse {
+         text-align: left;
+}
+
+#items {
+    	margin: -10px 0 0 0;
+    	padding: 2px 50px 10px 10px;
+    	font-size: 15px;
+    	line-height: 2em;
+    	border-bottom: 2px solid #ff0000;
+    	background-color: #d4e1f2;
+}
+
+#errors {
+    	 font-size: 14px;
+    	 color: red;
+} 
+
+p {
+    font-size: 14px;
+    line-height: 1em;
+}
+
+ul {
+    text-align: center;
+
+}
+
+li {
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    font-size: 12px;
+    padding: 0 50px 0 0;
+}
+
+a:hover {
+    	 color: #ff0000;
+}
+
+#logo {
+       size: 200px;
+       padding: 10px 0 0 58px;
+}
+
+
+ul li ul {
+          text-decoration: none;
+}
+
+ul li ul li{
+            background-color: #dce5ea;
+            margin-left: -60px;
+            margin-right: -25px;
+            padding-left: 25px;
+            padding-right:30px;
+            border-left:  1px solid #3d1efb;
+            border-right: 1px solid #3d1efb;
+}
+
+legend {
+    padding: 0 2px 0 4px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3d1efb;
+    border: 1.5px solid red;
+    background: #dce5ea;
+}
+
+#categories {
+    font-size: 20px;
+    color: #3d1efb;
+    text-align: center;
+    padding: 0;
+    margin: 2px 0 0 0;
+    text-align: center;
+    display: compact;
+}
+
+input, label {
+    line-height: 1em;
+    margin: 0 0 0 .5em;
+    display: inline;
+}
+
+label {
+    font-size: 14px;
+}
+
+#amend{
+    line-height: 2em;
+}
+
+.date {
+    margin: 0 1em 0 0;
+    display: inline;
+}
+
+#box {
+    font-size: 14px;
+    line-height: 2em;
+}
+
+nav {
+    margin: -6px 0 0 0;
+    text-align: right;
+}
+
+#slider {
+    text-align: center;
+    line-height: 5em;
+}
+
+#boxesCk {
+    font-size: 13px;
+}
